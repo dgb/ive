@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+404.html	public/404.html	1;"	F
+422.html	public/422.html	1;"	F
+500.html	public/500.html	1;"	F
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Ive
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Ive	config/application.rb	/^module Ive$/;"	m
+Task	app/models/task.rb	/^class Task$/;"	c
+TasksController	app/controllers/tasks_controller.rb	/^class TasksController < ApplicationController$/;"	c
+TasksHelper	app/helpers/tasks_helper.rb	/^module TasksHelper$/;"	m
+application.js	app/assets/javascripts/application.js	1;"	F
+application.rb	config/application.rb	1;"	F
+application_controller.rb	app/controllers/application_controller.rb	1;"	F
+application_helper.rb	app/helpers/application_helper.rb	1;"	F
+backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F
+boot.rb	config/boot.rb	1;"	F
+by_days	app/models/task.rb	/^  def self.by_days$/;"	F	class:Task
+create	app/controllers/tasks_controller.rb	/^  def create$/;"	f	class:TasksController
+destroy	app/controllers/tasks_controller.rb	/^  def destroy$/;"	f	class:TasksController
+development.rb	config/environments/development.rb	1;"	F
+edit	app/controllers/tasks_controller.rb	/^  def edit$/;"	f	class:TasksController
+environment.rb	config/environment.rb	1;"	F
+index	app/controllers/tasks_controller.rb	/^  def index$/;"	f	class:TasksController
+inflections.rb	config/initializers/inflections.rb	1;"	F
+mime_types.rb	config/initializers/mime_types.rb	1;"	F
+new	app/controllers/tasks_controller.rb	/^  def new$/;"	f	class:TasksController
+production.rb	config/environments/production.rb	1;"	F
+rails	script/rails	1;"	F
+routes.rb	config/routes.rb	1;"	F
+secret_token.rb	config/initializers/secret_token.rb	1;"	F
+seeds.rb	db/seeds.rb	1;"	F
+session_store.rb	config/initializers/session_store.rb	1;"	F
+show	app/controllers/tasks_controller.rb	/^  def show$/;"	f	class:TasksController
+task.rb	app/models/task.rb	1;"	F
+tasks_controller.rb	app/controllers/tasks_controller.rb	1;"	F
+tasks_helper.rb	app/helpers/tasks_helper.rb	1;"	F
+test.rb	config/environments/test.rb	1;"	F
+update	app/controllers/tasks_controller.rb	/^  def update$/;"	f	class:TasksController
+wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F

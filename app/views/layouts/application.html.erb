@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ive</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body id="<%= controller.action_name %>">
+    <header>
+      <h1><%= link_to 'ive', new_task_path %></h1>
+      <%= yield :header %>
+    </header>
+
+    <% @tasks_by_days.each do |date, tasks| %>
+      <div class="tasks">
+        <h2><%= date.strftime("%m.%d") %></h2>
+
+        <ul>
+          <% tasks.each do |task| %>
+            <li><%= render :partial => 'task', :object => task %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

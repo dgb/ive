@@ -1,0 +1,44 @@
+header {
+  overflow: hidden; }
+
+header * {
+  float: left; }
+
+header h1 a {
+  color: #333; }
+
+header form {
+  margin: .8em 0 0 .4em; }
+
+header form input:first-child {
+  width: 20em;
+  margin-right: .8em; }
+
+.tasks {
+  overflow: hidden;
+  margin: 2em 0 0; }
+
+.tasks h2 {
+  color: #aaa;
+  font-weight: normal;
+  font-size: .8em; }
+
+.tasks ul li {
+  margin-top: .2em;
+  font-size: 2em; }
+
+.tasks ul li a {
+  color: #555; }
+
+.tasks ul li small {
+  display: none; }
+
+.tasks ul li small a {
+  opacity: .1;
+  color: #D10034; }
+
+.tasks ul li:hover small {
+  display: inline; }
+
+.tasks ul li small a:hover {
+  opacity: 1; }
